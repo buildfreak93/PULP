@@ -1,0 +1,6 @@
+import itertools
+
+ids = dxl_io.scan([1, 2, 3, 4, 5])
+
+print(dxl_io.get_present_position(ids))
+dxl_io.set_goal_position(dict(zip(ids, itertools.repeat(0))))
