@@ -57,7 +57,7 @@ print(times)
 
 
 x = -40.0
-for v in range (0,10):
+for v in range (0,5):
 	for i in range(len(times)):
 		dxl_io.set_goal_position({id:angles[i]})
 		time.sleep(times[i])
